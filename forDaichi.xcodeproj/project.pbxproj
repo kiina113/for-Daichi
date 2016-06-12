@@ -14,6 +14,8 @@
 		3E3294931D0C89480014FF2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E3294911D0C89480014FF2E /* LaunchScreen.storyboard */; };
 		3E32949E1D0C89480014FF2E /* forDaichiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E32949D1D0C89480014FF2E /* forDaichiTests.swift */; };
 		3E3294A91D0C89480014FF2E /* forDaichiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3294A81D0C89480014FF2E /* forDaichiUITests.swift */; };
+		3E3294F31D0D24FF0014FF2E /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3294F21D0D24FE0014FF2E /* SelectViewController.swift */; };
+		3E3294F51D0D40210014FF2E /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E3294F41D0D40200014FF2E /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3E3294A41D0C89480014FF2E /* forDaichiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = forDaichiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E3294A81D0C89480014FF2E /* forDaichiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forDaichiUITests.swift; sourceTree = "<group>"; };
 		3E3294AA1D0C89480014FF2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E3294F21D0D24FE0014FF2E /* SelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		3E3294F41D0D40200014FF2E /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,10 @@
 		3E3294871D0C89480014FF2E /* forDaichi */ = {
 			isa = PBXGroup;
 			children = (
+				3E3294F41D0D40200014FF2E /* 1.png */,
 				3E3294881D0C89480014FF2E /* AppDelegate.swift */,
 				3E32948A1D0C89480014FF2E /* ViewController.swift */,
+				3E3294F21D0D24FE0014FF2E /* SelectViewController.swift */,
 				3E32948C1D0C89480014FF2E /* Main.storyboard */,
 				3E32948F1D0C89480014FF2E /* Assets.xcassets */,
 				3E3294911D0C89480014FF2E /* LaunchScreen.storyboard */,
@@ -230,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E3294931D0C89480014FF2E /* LaunchScreen.storyboard in Resources */,
+				3E3294F51D0D40210014FF2E /* 1.png in Resources */,
 				3E3294901D0C89480014FF2E /* Assets.xcassets in Resources */,
 				3E32948E1D0C89480014FF2E /* Main.storyboard in Resources */,
 			);
@@ -257,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E32948B1D0C89480014FF2E /* ViewController.swift in Sources */,
+				3E3294F31D0D24FF0014FF2E /* SelectViewController.swift in Sources */,
 				3E3294891D0C89480014FF2E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,6 +408,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = forDaichi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kiina.forDaichi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,6 +420,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = forDaichi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kiina.forDaichi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
